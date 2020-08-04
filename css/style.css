@@ -302,7 +302,7 @@ body{
 	border:1px solid #d4d4e3;
 	cursor: pointer;
 	position: fixed;
-	left: 300px;
+	left: 280px;
 	top:20px;
 	z-index: 11;
 	border-radius: 5px; 
@@ -1089,5 +1089,10 @@ body.dark .section{
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		max-width: 100%;
+	}
+}
+@media (max-width: 385px){
+	.aside .nav-toggler.open{
+		left: 220px
 	}
 }

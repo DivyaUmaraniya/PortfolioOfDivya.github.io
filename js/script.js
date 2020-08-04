@@ -3,7 +3,7 @@ window.addEventListener("load",function(){
 	document.querySelector(".proloader").classList.add("opacity-0");
 	setTimeout(function(){
 		document.querySelector(".proloader").style.display="none";
-	},1000)  
+	},100)  
 })
 
 const filtercontainer=document.querySelector(".portfolio-filter"),
